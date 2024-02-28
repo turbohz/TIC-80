@@ -1905,7 +1905,7 @@ static void processShortcuts(Studio* studio)
                 setStudioMode(studio, TIC_CONSOLE_MODE);
             }
         }
-        else if(keyWasPressedOnce(studio, tic_key_f8)) takeScreenshot(studio);
+        else if(keyWasPressedOnce(studio, tic_key_f8)) exitStudio(studio);
         else if(keyWasPressedOnce(studio, tic_key_f9)) startVideoRecord(studio);
         else if(keyWasPressedOnce(studio, tic_key_f10)) hideBattleTime(studio);
         else if(keyWasPressedOnce(studio, tic_key_f12)) startBattle(studio);
